@@ -1,5 +1,7 @@
-# 4-pokemon-game
+# pokemon-game
 
+## DEMO
+[pokemon-game](https://gregarious-buttercream-b41968.netlify.app/)
 ## Project setup
 ```
 npm install
