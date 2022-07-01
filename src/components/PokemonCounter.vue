@@ -1,9 +1,10 @@
-<template>
+<template class="fade-in">
     <ul>
         <li>Juegos: {{partidas}}</li>
         <li class="rightAns">Aciertos: {{parWon}}</li>
         <li class="wrongAns">Fallos: {{parLost}}</li>
     </ul>
+    <hr>
 </template>
 
 <script>
@@ -26,9 +27,6 @@ export default {
 </script>
 
 <style scoped>
-template {
-  margin-top: 0px;
-}
 ul {
     display: flex;
     justify-content: center;
@@ -38,5 +36,10 @@ li {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     list-style: none;
+    font-size: 0.85rem;
+}
+hr {
+  height: 1px;
+  background-color: #2c3e50;
 }
 </style>
