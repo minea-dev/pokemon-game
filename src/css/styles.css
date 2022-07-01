@@ -1,0 +1,14 @@
+html,
+body {
+    background-color: #f1f1f1;
+    margin: 0px;
+    text-align: center;
+}
+
+.rightAns {
+    color: rgb(0, 187, 93);
+}
+
+.wrongAns {
+    color: rgb(231, 13, 13);
+}
