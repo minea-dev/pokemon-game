@@ -1,7 +1,7 @@
 <template>
+    <PokemonCounter :partidas="partidas" :parWon="parWon" :parLost="parLost" v-if="partidas > 0"/>
     <h1 v-if="!pokemon">Espere por favor...</h1>
     <div v-else>
-        <PokemonCounter :partidas="partidas" :parWon="parWon" :parLost="parLost" v-if="partidas > 0"/>
         <h1>¿Quién es este Pokemon?</h1>
         <PokemonPicture :pokemonId="pokemon.id" :showPokemon="showPokemon"/>
         <PokemonOptions :pokemons="pokemonArr" @selection="checkAnswer" :block="blocked" />
